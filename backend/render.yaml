@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: object-detection-backend
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn object_detection.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: object_detection.settings
+      - key: PYTHON_VERSION
+        value: 3.12
+    plan: free
