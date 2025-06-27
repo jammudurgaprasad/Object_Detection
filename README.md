@@ -92,11 +92,12 @@ project4/
 
 ---
 
-## 🖼️ Demo Output
+## 🖼️ Demo Input & Output
 
-Here is an example output of the detection model:
+Here is an example input & output of the detection model:
 
-![Sample Output](demo.jpeg)
+![Sample Input](demo.jpeg)
+![Sample Output](output.png)
 
 ---
 
