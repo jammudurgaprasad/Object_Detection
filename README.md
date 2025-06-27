@@ -14,15 +14,15 @@ A full-stack object detection web application built using **React (frontend)** a
 ## 🧰 Tech Stack
 
 ### 🔙 Backend
-- Python
-- Django
-- Django REST Framework
-- TensorFlow + TensorFlow Hub
-- OpenCV
+- Python  
+- Django  
+- Django REST Framework  
+- TensorFlow + TensorFlow Hub  
+- OpenCV  
 
 ### 🔜 Frontend
-- React
-- Axios
+- React  
+- Axios  
 - CSS (custom styled UI)
 
 ---
@@ -38,7 +38,6 @@ cd project4
 ---
 
 ## 🔧 Backend Setup (Django)
-
 ```bash
 cd backend
 python -m venv venv
@@ -50,14 +49,13 @@ python manage.py runserver
 
 ### Key API Endpoint
 
-| Method | Endpoint        | Description              |
+| Method | Endpoint         | Description             |
 |--------|------------------|--------------------------|
 | POST   | `/api/detect/`   | Detect objects in image |
 
 ---
 
 ## 🎨 Frontend Setup (React)
-
 ```bash
 cd frontend
 npm install
@@ -69,20 +67,19 @@ Make sure the backend is running at `http://localhost:8000` or update the Axios 
 ---
 
 ## 📦 Project Structure
-
 ```
 project4/
 ├── backend/
-│   ├── detection/              # Django app
-│   ├── media/                  # Uploaded images
-│   ├── object_detection/       # Django project settings
+│   ├── detection/           # Django app
+│   ├── media/               # Uploaded images
+│   ├── object_detection/    # Django project settings
 │   ├── manage.py
 │   └── requirements.txt
 ├── frontend/
 │   ├── public/
 │   ├── src/
 │   └── package.json
-└── runtime.txt                 # For deployment platforms like Heroku
+└── runtime.txt              # For deployment platforms like Heroku
 ```
 
 ---
@@ -92,6 +89,14 @@ project4/
 1. Select an image to upload.
 2. Click “Detect Objects”.
 3. See results such as: `apple`, `person`, `car`, etc.
+
+---
+
+## 🖼️ Demo Output
+
+Here is an example output of the detection model:
+
+![Sample Output](demo.jpeg)
 
 ---
 
