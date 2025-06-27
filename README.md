@@ -96,8 +96,11 @@ project4/
 
 Here is an example input & output of the detection model:
 
-![Sample Input](demo.jpeg)
-![Sample Output](output.png)
+<h3>Sample Input</h3>
+<img src="demo.jpeg" alt="Sample Input" width="500"/>
+
+<h3>Sample Output</h3>
+<img src="output.png" alt="Sample Output" width="500"/>
 
 ---
 
