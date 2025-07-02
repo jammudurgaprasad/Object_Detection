@@ -31,8 +31,8 @@ A full-stack object detection web application built using **React (frontend)** a
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/jammudurgaprasad/project4.git
-cd project4
+git clone https://github.com/jammudurgaprasad/Object_Detection.git
+cd Object_Detection
 ```
 
 ---
