@@ -68,7 +68,7 @@ Make sure the backend is running at `http://localhost:8000` or update the Axios 
 
 ## 📦 Project Structure
 ```
-project4/
+Object_Detection/
 ├── backend/
 │   ├── detection/           # Django app
 │   ├── media/               # Uploaded images
