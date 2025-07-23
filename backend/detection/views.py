@@ -27,7 +27,10 @@ COCO_LABELS = {
     85: 'clock', 86: 'vase', 87: 'scissors', 88: 'teddy bear',
     89: 'hair drier', 90: 'toothbrush'
 }
-detector = hub.load("https://tfhub.dev/tensorflow/ssd_mobilenet_v2/2")
+# detector = hub.load("https://tfhub.dev/tensorflow/ssd_mobilenet_v2/2")
+
+detector = hub.load("https://tfhub.dev/tensorflow/ssd_mobilenet_v2/fpnlite_320x320/1")
+
 
 @api_view(['POST'])
 def detect_objects(request):
